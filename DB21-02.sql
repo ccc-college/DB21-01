@@ -1,6 +1,5 @@
-/* CREATE DATABASE tdb00 DEFAULT CHARACTER SET utf8; */
-/* use tdb00; */
-use study;
+CREATE DATABASE tdb00 DEFAULT CHARACTER SET utf8mb4;
+use tdb00;
 
 DROP TABLE IF EXISTS slist;
 CREATE TABLE slist (
