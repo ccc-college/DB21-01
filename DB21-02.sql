@@ -6,7 +6,7 @@ CREATE TABLE slist (
 id int not null primary key,
 name varchar(32),
 price int,
-num int NULL
+num int
 );
 INSERT INTO slist (id, name, price, num) VALUES (1,'鶏肉',350,2);
 INSERT INTO slist (id, name, price, num) VALUES (2,'大根',100,1);
@@ -16,5 +16,5 @@ INSERT INTO slist (id, name, price, num) VALUES (5,'もやし',30,5);
 INSERT INTO slist (id, name, price, num) VALUES (6,'牛肉',800,3);
 INSERT INTO slist (id, name, price, num) VALUES (7,'キャベツ',250,5);
 INSERT INTO slist (id, name, price, num) VALUES (8,'じゃがいも',110,10);
-INSERT INTO slist (id, name, price, num) VALUES (9,'トマト',220);
-INSERT INTO slist (id, name, price, num) VALUES (10,'レタス',170);
+INSERT INTO slist (id, name, price) VALUES (9,'トマト',220);
+INSERT INTO slist (id, name, price) VALUES (10,'レタス',170);
